@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ben Walker</title>
+  <meta name="description" content="Data journalism and analysis of UK elections, polling and public opinion.">
+  <meta property="og:title" content="Ben Walker — Data journalist &amp; political analyst">
+  <meta property="og:description" content="UK elections, polling and interactive data visualisation.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121316" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="/">Ben Walker<span class="dot">.</span></a>
+      <nav aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <p class="kicker">Data journalist · Political analyst</p>
+      <h1>Making sense of how Britain votes.</h1>
+      <p class="lede">I write about the state of public opinion and why people think the way they think.
+      </p>
+      <ul class="social" id="social" aria-label="Elsewhere"></ul>
+      <div class="bars" aria-hidden="true">
+        <span style="--h:.62"></span><span style="--h:.48"></span><span style="--h:.81"></span><span style="--h:.35"></span><span style="--h:.57"></span><span style="--h:.92"></span><span style="--h:.44"></span><span style="--h:.70"></span><span style="--h:.52"></span><span style="--h:.28"></span><span style="--h:.66"></span><span style="--h:.78"></span>
+      </div>
+    </section>
+
+    <section id="work" class="section wrap" aria-labelledby="work-h">
+      <div class="section-head">
+        <h2 id="work-h">Projects</h2>
+        <p>Tools and trackers I build and maintain...</p>
+      </div>
+      <ul class="cards" id="sites"></ul>
+    </section>
+
+    <section id="writing" class="section wrap" aria-labelledby="writing-h">
+      <div class="section-head">
+        <h2 id="writing-h">Latest writing</h2>
+        <div class="filters" id="filters" role="group" aria-label="Filter by publication"></div>
+      </div>
+      <ol class="feed" id="feed" aria-live="polite">
+        <li class="feed-item skeleton"></li>
+        <li class="feed-item skeleton"></li>
+        <li class="feed-item skeleton"></li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section wrap contact" aria-labelledby="contact-h">
+      <div class="section-head">
+        <h2 id="contact-h">Get in touch</h2>
+        <p>Commissions, data questions, corrections or just to say hello.</p>
+      </div>
+      <form id="contact-form" class="form" novalidate>
+        <div class="row">
+          <label>Name<input name="name" autocomplete="name" required maxlength="120"></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required maxlength="200"></label>
+        </div>
+        <label>Message<textarea name="message" rows="6" required maxlength="5000"></textarea></label>
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-foot">
+          <button type="submit">Send message</button>
+          <p class="status" id="form-status" role="status"></p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Ben Walker</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "feedLimit": 12,
+  "feeds": [
+    { "name": "Substack", "url": "https://britainelects.substack.com/feed" },
+    { "name": "Magazine", "url": "https://www.newstatesman.com/author/ben-walker" }
+  ],
+  "sites": [
+    {
+      "title": "Britain Predicts",
+      "description": "Live seat projection for all 632 GB constituencies, driven by regional polling.",
+      "url": "https://glasgow46239.github.io/britainpredicts/",
+      "tag": "Model"
+    },
+    {
+      "title": "Poll Tracker",
+      "description": "Smoothed trends for Westminster and devolved voting intention, PM approval and leader ratings.",
+      "url": "https://example.com/poll-tracker",
+      "tag": "Tracker"
+    },
+    {
+      "title": "Ward Results Map",
+      "description": "Interactive ward-level local election results with multi-year history and demographics.",
+      "url": "https://example.com/ward-map",
+      "tag": "Map"
+    },
+    {
+      "title": "Newsletter",
+      "description": "Analysis of UK elections and polling, straight to your inbox.",
+      "url": "https://YOUR-SUBSTACK.substack.com",
+      "tag": "Substack"
+    }
+  ],
+  "social": [
+    { "label": "Substack", "url": "https://YOUR-SUBSTACK.substack.com" },
+    { "label": "Bluesky", "url": "https://bsky.app/profile/YOUR-HANDLE" },
+    { "label": "X", "url": "https://x.com/YOUR-HANDLE" }
+  ],
+  "contact": {
+    "endpoint": "https://api.web3forms.com/submit",
+    "accessKey": "229d7718-57e9-4954-82c3-e08050d59b01",
+    "subject": "New message from your website"
+  }
+}
