@@ -7,25 +7,25 @@
   "sites": [
     {
       "title": "Britain Elects",
-      "description": "Poll aggregator, campaign analysis and election forecasting.",
+      "description": "Poll aggregator, campaign analysis and election forecasting",
       "url": "https://www.britainelects.com",
-      "tag": "Model"
+      "tag": "Co-Founder"
     },
     {
       "title": "The New Statesman",
-      "description": "Senior Data Journalist for the New Statesman (2020-).",
+      "description": "Senior Data Journalist for the New Statesman (2020-)",
       "url": "https://www.newstatesman.com/author/ben-walker",
-      "tag": "Tracker"
+      "tag": "The Day Job"
     },
     {
       "title": "Mapping wards",
-      "description": "Interactive ward-level local election results.",
+      "description": "Interactive ward-level local election results",
       "url": "https://www.newstatesman.com/politics/uk-politics/may-2026/2026/05/live-results-map-wales-scotland-and-local-elections",
       "tag": "Map"
     },
     {
       "title": "Britain Elects on Substack",
-      "description": "Analysis of UK elections and polling, straight to your inbox.",
+      "description": "Analysis of UK elections and polling, straight to your inbox",
       "url": "https://britainelects.substack.com",
       "tag": "Substack"
     }
